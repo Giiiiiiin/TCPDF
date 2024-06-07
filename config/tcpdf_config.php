@@ -69,13 +69,12 @@
  * Deafult image logo used be the default Header() method.
  * Please set here your own logo or an empty string to disable it.
  */
-//define ('PDF_HEADER_LOGO', '');
+define ('PDF_HEADER_LOGO', 'image_demo.jpg');
 
 /**
  * Header logo image width in user units.
  */
-//define ('PDF_HEADER_LOGO_WIDTH', 0);
-
+define ('PDF_HEADER_LOGO_WIDTH', 10);
 /**
  * Cache directory for temporary files (full path).
  */
